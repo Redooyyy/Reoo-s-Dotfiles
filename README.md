@@ -51,13 +51,13 @@ sudo apt install stow
 Clone this repository to your home directory:
 
 ```bash
-git clone https://github.com/Redooyyy/Reoo-s-DotfilesDotfiles.git
+git clone https://github.com/Redooyyy/Reoo-s-Dotfiles.git
 ```
 
 ### 3. Navigate to the cloned repository
 
 ```bash
-cd Reoo-s-DotfilesDotfiles
+cd Reoo-s-Dotfiles
 ```
 
 ### 4. Stow all dotfiles
