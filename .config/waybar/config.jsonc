@@ -69,13 +69,15 @@
 		"all-outputs": true,
 		"format": "{name} {windows}",
 	   "window-rewrite":{
-	     "zen" : "",
+	     "vivaldi-stable" : "",
 	     "kitty":"󰄛",
 	     "code":"",
 	     "nvim":"",
+       "vivaldi-rive.app__-Default" : "",
+       "vivaldi-figma.app__-Default": "",
 	     "chrome-youtube.com__-Default":"",
-	     "chrome-web.whatsapp.com__-Default" : "󰖣",
-	     "chrome-discord.com__channels_@me-Default":""
+	     "vivaldi-web.whatsapp.com__-Default" : "󰖣",
+	     "vivaldi-discord.com__channels_@me-Default":""
 	   },
 		"show-special": false,
 		"on-click": "activate",
