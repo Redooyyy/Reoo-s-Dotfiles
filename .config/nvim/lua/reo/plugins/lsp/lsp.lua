@@ -13,6 +13,7 @@ return {
     local capabilities = cmp_nvim_lsp.default_capabilities()
 
     vim.lsp.enable("dartls")
+    vim.lsp.enable("dcmls")
 
     -- local dartExcludedFolders = {
     --   --vim.fn.expand("$HOME/AppData/Local/Pub/Cache"),--
