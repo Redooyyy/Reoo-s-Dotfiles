@@ -144,5 +144,10 @@ git-update() {
   git push
 }
 
+
+#for flutter
+export CHROME_EXECUTABLE="/usr/bin/chromium"
+
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

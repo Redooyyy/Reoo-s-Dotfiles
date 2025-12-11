@@ -12,13 +12,15 @@ return {
     -- used to enable autocompletion (assign to every lsp server config)
     local capabilities = cmp_nvim_lsp.default_capabilities()
 
-    local dartExcludedFolders = {
-      --vim.fn.expand("$HOME/AppData/Local/Pub/Cache"),--
-      vim.fn.expand("$HOME/.pub-cache"),
-      vim.fn.expand("/opt/dart-sdk/bin/snapshots/analysis_server.dart.snapshot"),
-      vim.fn.expand("$HOME/flutter/"),
-    }
+    vim.lsp.enable("dartls")
 
+    -- local dartExcludedFolders = {
+    --   --vim.fn.expand("$HOME/AppData/Local/Pub/Cache"),--
+    --   vim.fn.expand("$HOME/.pub-cache"),
+    --   vim.fn.expand("/opt/dart-sdk/bin/snapshots/analysis_server.dart.snapshot"),
+    --   vim.fn.expand("$HOME/flutter/"),
+    -- }
+    --
     -- local lspconfig = require("lspconfig")
     -- lspconfig["dcmls"].setup({
     --   capabilities = capabilities,
