@@ -9,7 +9,7 @@ return {
         "cssls",
         "tailwindcss",
         "svelte",
-        "lua-language-server",
+        "lua_ls",
         "graphql",
         "emmet_ls",
         "prismals",
