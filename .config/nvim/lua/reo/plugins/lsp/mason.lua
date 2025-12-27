@@ -15,7 +15,7 @@ return {
         "prismals",
         "pyright",
         "eslint",
-        "json-lsp",
+        "jsonls",
       },
     },
     dependencies = {
