@@ -89,6 +89,10 @@ alias ls="eza --icons=always"
 alias cd="z"
 alias python="python3"
 
+#screen record
+alias screen-record="~/MyScript/screen_record_without_sound.sh"
+alias screen-record-sound+"~/MyScript/screen_with_sound.sh"
+
 #touch pad disabling (search sys id by typing "ls /sys/bus/i2c/devices/")
 alias touchpad-off='echo "i2c-ASUP1301:00" | echo "i2c-ASUP1301:00" | sudo tee /sys/bus/i2c/drivers/i2c_hid_acpi/unbind && notify-send "🌙 Touchpad Disabled" "Your gestures are now at rest."'
 alias touchpad-on='echo "i2c-ASUP1301:00" | echo "i2c-ASUP1301:00" | sudo tee /sys/bus/i2c/drivers/i2c_hid_acpi/bind && notify-send "🌙 Touchpad Disabled" "Your gestures are now at rest."'
