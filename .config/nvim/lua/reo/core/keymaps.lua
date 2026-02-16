@@ -25,11 +25,11 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 --competitist
 keymap.set("n", "<leader>cr", "<cmd>CompetiTest run<CR>", { desc = "Run test cases" }) --run test cases--
 keymap.set("n", "<leader>cs", "<cmd>CompetiTest show_ui<CR>", { desc = "Re-open ui" }) --re open ui--
-keymap.set("n", "<leader>ca", "<cmd>CompetiTest add_testcase<CR>", { desc = "Add test cases" }) --Add test cases--
+keymap.set("n", "<leader>ct", "<cmd>CompetiTest add_testcase<CR>", { desc = "Add test cases" }) --Add test cases--
 keymap.set("n", "<leader>ce", "<cmd>CompetiTest edit_testcase<CR>", { desc = "edit test cases" }) --edit test cases--
 keymap.set("n", "<leader>dt", "<cmd>CompetiTest receive testcase<CR>", { desc = "Download testcase" }) --receive test cases--
 keymap.set("n", "<leader>dp", "<cmd>CompetiTest receive problem<CR>", { desc = "Download problem" }) --download problem--
 keymap.set("n", "<leader>dc", "<cmd>CompetiTest receive contest<CR>", { desc = "download contest" }) --download contest--
 
 --run code--
-keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", { desc = "Run code" }) --download contest--
+keymap.set("n", "<leader>rc", "<cmd>RunCode<CR>", { desc = "Run code" }) --Run code--

@@ -44,6 +44,29 @@ return {
         },
       },
     })
+    vim.lsp.config("rust_analyzer", {
+      capabilities = capabilities,
+
+      cmd = { "/usr/bin/rust-analyzer" },
+
+      filetypes = { "rust" },
+
+      root_markers = { "Cargo.toml", "rust-project.json", ".git" },
+
+      settings = {
+        ["rust-analyzer"] = {
+          cargo = {
+            allFeatures = true,
+          },
+          checkOnSave = true,
+          check = {
+            command = "clippy", -- optional but recommended
+          },
+        },
+      },
+    })
+
+    vim.lsp.enable("rust_analyzer")
     vim.lsp.enable("dartls")
     vim.lsp.enable("dcmls")
 

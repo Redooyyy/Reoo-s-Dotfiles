@@ -1,6 +1,5 @@
 return {
   "Redooyyy/floatbar-nvim",
-  branch = "UserKeyMaps",
   config = function()
     -- Enable true colors globally (optional if not in init.lua)
     vim.o.termguicolors = true
