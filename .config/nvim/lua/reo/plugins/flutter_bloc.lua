@@ -1,6 +1,7 @@
 return {
   {
     "wa11breaker/flutter-bloc.nvim",
+    ft = "dart",
     config = function()
       require("flutter-bloc").setup({
         bloc_type = "default",
@@ -19,6 +20,7 @@ return {
 
   {
     "RobertPietraru/bloc.nvim",
+    ft = "dart",
     dependencies = {
       {
         "nvimtools/none-ls.nvim",
