@@ -138,6 +138,20 @@ git-create() {
   gh repo create "$1" --public --source=. --remote=origin
 }
 
+git-create-private() {
+  if [ -z "$1" ]; then
+    echo "❗ Please provide a repository name."
+    return 1
+  fi
+
+  if [ ! -d .git ]; then
+    echo "📦 Initializing Git repository..."
+    git init
+  fi
+
+  echo "🔒 Creating PRIVATE GitHub repo: $1"
+  gh repo create "$1" --private --source=. --remote=origin
+}
 alias git-push-init='git add . && git commit -m "Initial commit" && git push -u origin master'
 
 git-update() {
