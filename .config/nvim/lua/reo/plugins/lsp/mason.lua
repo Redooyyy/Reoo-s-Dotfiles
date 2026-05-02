@@ -1,4 +1,5 @@
 return {
+  --npm install must
   {
     "williamboman/mason-lspconfig.nvim",
     opts = {
@@ -16,6 +17,7 @@ return {
         "pyright",
         "eslint",
         "jsonls",
+        "clangd",
       },
     },
     dependencies = {
